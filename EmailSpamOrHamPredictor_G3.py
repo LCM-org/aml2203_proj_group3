@@ -33,7 +33,7 @@ def launchProgram():
 launchProgram()
 
 # Load the dataset
-df = pd.read_csv("./AML2023_Projects/Proj2_EmailDetector/spam_dataset.csv")
+df = pd.read_csv("spam_dataset.csv")
 print(f"{c.GREEN} Count of Dataset: {c.RESET}\n {df.count()}\n")
 print(f"{c.GREEN} Info of Dataset: {c.RESET}\n {df.info()}\n") #To be checked on why the label is displayed at the bottom of the result of df.info()
 print(f"{c.GREEN} Data Frame Shape: {c.RESET}\n {df.shape}\n")
