@@ -89,3 +89,8 @@ def evalModel(model, x_train, x_test, y_train, y_test, y_pred): # This method ev
 
 
 evalModel(model, X_train, X_test, y_train, y_test, y_pred) #This method generates the Classification Report
+email= input("Text: ")
+emailsCount=v.transform([email])
+model.predict(emailsCount)
+#model.score(X_testCount, y_test)
+print(model.predict(emailsCount))
